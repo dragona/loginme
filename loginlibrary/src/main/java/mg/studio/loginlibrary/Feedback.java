@@ -15,7 +15,7 @@ import android.os.Parcelable;
 
 
 
-class Feedback implements Parcelable{
+public class Feedback implements Parcelable{
 
     private String name;
     private String error_message;
