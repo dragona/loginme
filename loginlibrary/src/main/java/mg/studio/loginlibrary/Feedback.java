@@ -22,7 +22,7 @@ public class Feedback implements Parcelable{
     public final int SUCCESS = 1;
     public final int FAIL = 0;
 
-    Feedback(){ }
+    public Feedback(){ }
 
     protected Feedback(Parcel in) {
         name = in.readString();
